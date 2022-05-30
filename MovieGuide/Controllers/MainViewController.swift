@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
         DispatchQueue.global().async {
             self.movieManager.performRequest()
         }
+        tableView.separatorStyle = .none
         
         let cellNib = UINib(nibName: SearchViewController.TableView.CellIdentifiers.searchResultCell, bundle: nil)
         

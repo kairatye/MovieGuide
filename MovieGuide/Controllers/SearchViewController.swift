@@ -27,7 +27,7 @@ class SearchViewController: UIViewController {
         
         searchBar.becomeFirstResponder()
         
-        tableView.separatorStyle = UITableViewCell.SeparatorStyle.none
+        tableView.separatorStyle = .none
         
         tableView.contentInset = UIEdgeInsets(top: 47, left: 0, bottom: 0, right: 0)
         

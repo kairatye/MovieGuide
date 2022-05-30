@@ -26,7 +26,7 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="Qg5-vs-khj"/>
                                 </connections>
                             </tableView>
-                            <searchBar contentMode="redraw" placeholder="Movie name" translatesAutoresizingMaskIntoConstraints="NO" id="iHb-Qo-iBx">
+                            <searchBar contentMode="redraw" placeholder="Найти фильм" translatesAutoresizingMaskIntoConstraints="NO" id="iHb-Qo-iBx">
                                 <rect key="frame" x="0.0" y="88" width="414" height="51"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
@@ -189,7 +189,7 @@ Ut sed erat eget ex maximus pellentesque in non diam. Sed laoreet faucibus venen
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Popular Movies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qUF-uj-5Ed">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Популярные фильмы" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qUF-uj-5Ed">
                                 <rect key="frame" x="16" y="88" width="382" height="27.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
                                 <nil key="textColor"/>
@@ -216,7 +216,9 @@ Ut sed erat eget ex maximus pellentesque in non diam. Sed laoreet faucibus venen
                             <constraint firstItem="AGk-97-bec" firstAttribute="top" secondItem="qUF-uj-5Ed" secondAttribute="bottom" constant="26.5" id="xWh-3R-nl7"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="cje-xl-0uj"/>
+                    <navigationItem key="navigationItem" id="cje-xl-0uj">
+                        <barButtonItem key="backBarButtonItem" title=" " id="9pE-Ip-3UA"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="AGk-97-bec" id="lEE-cM-KTD"/>
                         <segue destination="RQV-7j-Caj" kind="show" identifier="ShowPopularDetail" id="9vh-jG-6Yt"/>
@@ -226,11 +228,11 @@ Ut sed erat eget ex maximus pellentesque in non diam. Sed laoreet faucibus venen
             </objects>
             <point key="canvasLocation" x="1398.5507246376812" y="1226.7857142857142"/>
         </scene>
-        <!--Main-->
+        <!--Navigation Controller-->
         <scene sceneID="csw-KR-lYl">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UoA-qO-o21" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Main" image="house" catalog="system" id="bId-0S-0fT"/>
+                    <tabBarItem key="tabBarItem" title="" image="house" catalog="system" id="bId-0S-0fT"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="j7e-8l-hDl">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -245,11 +247,11 @@ Ut sed erat eget ex maximus pellentesque in non diam. Sed laoreet faucibus venen
             </objects>
             <point key="canvasLocation" x="1401" y="514"/>
         </scene>
-        <!--Search-->
+        <!--Navigation Controller-->
         <scene sceneID="yCk-vw-hCE">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JAo-bh-Ahe" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" id="SrY-Xc-EA1"/>
+                    <tabBarItem key="tabBarItem" title="" image="magnifyingglass" catalog="system" id="SrY-Xc-EA1"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dJm-wc-3Yc">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
